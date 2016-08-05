@@ -16,4 +16,6 @@ FOUNDATION_EXPORT const unsigned char objcViewVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <objcView/PublicHeader.h>
 
+#import <objcView/UIView+VDInstance.h>
+#import <objcView/UIView+VDSubview.h>
 
