@@ -18,4 +18,7 @@ FOUNDATION_EXPORT const unsigned char objcViewVersionString[];
 
 #import <objcView/UIView+VDInstance.h>
 #import <objcView/UIView+VDSubview.h>
+#import <objcView/UIView+VDConstraint.h>
+#import <objcView/UIView+VDFrame.h>
+#import <objcView/UIView+VDGesture.h>
 
