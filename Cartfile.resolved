@@ -1,4 +1,6 @@
 github "vilyever/objcBlock" "5432f110354c8134990593698365740b9183919b"
 github "vilyever/objcHook" "d897c835ec0da5ad6e1689f0d4867666b4c3ae50"
 github "vilyever/objcKeyPath" "ea64e7d6d1fe8f6cadf8e88e8df2f0a385886748"
-github "vilyever/objcKVO" "312aeafbe22fa31a0f44b2e5d02191e183f1ff18"
+github "vilyever/objcObject" "b3395c85959330ba535e2a1f2bff8d53d4422805"
+github "vilyever/objcWeakRef" "0df04dba2dfcd9516c0b7538f9a3418c905235df"
+github "vilyever/objcKVO" "eea92372694f9ae4203f7aad16e1106dd1dbf211"

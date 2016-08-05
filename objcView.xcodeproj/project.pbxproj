@@ -20,6 +20,14 @@
 		FE6403331D54310300652BAC /* objcHook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE64032F1D54310300652BAC /* objcHook.framework */; };
 		FE6403341D54310300652BAC /* objcKeyPath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6403301D54310300652BAC /* objcKeyPath.framework */; };
 		FE6403351D54310300652BAC /* objcKVO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6403311D54310300652BAC /* objcKVO.framework */; };
+		FE6406F91D54835B00652BAC /* UIView+VDConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6406F71D54835B00652BAC /* UIView+VDConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6406FA1D54835B00652BAC /* UIView+VDConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6406F81D54835B00652BAC /* UIView+VDConstraint.m */; };
+		FE6406FD1D54843700652BAC /* UIView+VDFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6406FB1D54843700652BAC /* UIView+VDFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6406FE1D54843700652BAC /* UIView+VDFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6406FC1D54843700652BAC /* UIView+VDFrame.m */; };
+		FE6407011D5484AB00652BAC /* UIView+VDGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6406FF1D5484AB00652BAC /* UIView+VDGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6407021D5484AB00652BAC /* UIView+VDGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6407001D5484AB00652BAC /* UIView+VDGesture.m */; };
+		FE6407051D54867E00652BAC /* objcObject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6407031D54867E00652BAC /* objcObject.framework */; };
+		FE6407061D54867E00652BAC /* objcWeakRef.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6407041D54867E00652BAC /* objcWeakRef.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +58,14 @@
 		FE64032F1D54310300652BAC /* objcHook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcHook.framework; path = Carthage/Build/iOS/objcHook.framework; sourceTree = "<group>"; };
 		FE6403301D54310300652BAC /* objcKeyPath.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcKeyPath.framework; path = Carthage/Build/iOS/objcKeyPath.framework; sourceTree = "<group>"; };
 		FE6403311D54310300652BAC /* objcKVO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcKVO.framework; path = Carthage/Build/iOS/objcKVO.framework; sourceTree = "<group>"; };
+		FE6406F71D54835B00652BAC /* UIView+VDConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VDConstraint.h"; sourceTree = "<group>"; };
+		FE6406F81D54835B00652BAC /* UIView+VDConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VDConstraint.m"; sourceTree = "<group>"; };
+		FE6406FB1D54843700652BAC /* UIView+VDFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VDFrame.h"; sourceTree = "<group>"; };
+		FE6406FC1D54843700652BAC /* UIView+VDFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VDFrame.m"; sourceTree = "<group>"; };
+		FE6406FF1D5484AB00652BAC /* UIView+VDGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VDGesture.h"; sourceTree = "<group>"; };
+		FE6407001D5484AB00652BAC /* UIView+VDGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VDGesture.m"; sourceTree = "<group>"; };
+		FE6407031D54867E00652BAC /* objcObject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcObject.framework; path = Carthage/Build/iOS/objcObject.framework; sourceTree = "<group>"; };
+		FE6407041D54867E00652BAC /* objcWeakRef.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcWeakRef.framework; path = Carthage/Build/iOS/objcWeakRef.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +77,8 @@
 				FE6403331D54310300652BAC /* objcHook.framework in Frameworks */,
 				FE6403341D54310300652BAC /* objcKeyPath.framework in Frameworks */,
 				FE6403351D54310300652BAC /* objcKVO.framework in Frameworks */,
+				FE6407051D54867E00652BAC /* objcObject.framework in Frameworks */,
+				FE6407061D54867E00652BAC /* objcWeakRef.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +96,8 @@
 		FE6402381D54225C00652BAC = {
 			isa = PBXGroup;
 			children = (
+				FE6407031D54867E00652BAC /* objcObject.framework */,
+				FE6407041D54867E00652BAC /* objcWeakRef.framework */,
 				FE64032E1D54310300652BAC /* objcBlock.framework */,
 				FE64032F1D54310300652BAC /* objcHook.framework */,
 				FE6403301D54310300652BAC /* objcKeyPath.framework */,
@@ -109,6 +129,12 @@
 				FE6402611D5422BC00652BAC /* UIView+VDInstance.m */,
 				FE6402641D54233700652BAC /* UIView+VDSubview.h */,
 				FE6402651D54233800652BAC /* UIView+VDSubview.m */,
+				FE6406F71D54835B00652BAC /* UIView+VDConstraint.h */,
+				FE6406F81D54835B00652BAC /* UIView+VDConstraint.m */,
+				FE6406FB1D54843700652BAC /* UIView+VDFrame.h */,
+				FE6406FC1D54843700652BAC /* UIView+VDFrame.m */,
+				FE6406FF1D5484AB00652BAC /* UIView+VDGesture.h */,
+				FE6407001D5484AB00652BAC /* UIView+VDGesture.m */,
 			);
 			path = objcView;
 			sourceTree = "<group>";
@@ -131,7 +157,10 @@
 			files = (
 				FE6402621D5422BC00652BAC /* UIView+VDInstance.h in Headers */,
 				FE6402461D54225D00652BAC /* objcView.h in Headers */,
+				FE6406F91D54835B00652BAC /* UIView+VDConstraint.h in Headers */,
+				FE6407011D5484AB00652BAC /* UIView+VDGesture.h in Headers */,
 				FE6402661D54233800652BAC /* UIView+VDSubview.h in Headers */,
+				FE6406FD1D54843700652BAC /* UIView+VDFrame.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,8 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6406FE1D54843700652BAC /* UIView+VDFrame.m in Sources */,
+				FE6407021D5484AB00652BAC /* UIView+VDGesture.m in Sources */,
 				FE6402671D54233800652BAC /* UIView+VDSubview.m in Sources */,
 				FE6402631D5422BC00652BAC /* UIView+VDInstance.m in Sources */,
+				FE6406FA1D54835B00652BAC /* UIView+VDConstraint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

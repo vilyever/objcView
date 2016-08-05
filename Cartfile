@@ -1,1 +1,3 @@
 github "vilyever/objcKVO" "master"
+github "vilyever/objcWeakRef" "master"
+github "vilyever/objcObject" "master"
