@@ -33,4 +33,7 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
 
   s.dependency 'objcKVO'
+  s.dependency 'objcWeakRef'
+  s.dependency 'objcObject'
+
 end
